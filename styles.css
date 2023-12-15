@@ -1,0 +1,140 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark text color */
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #8A2BE2; /* Purple header background */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff; /* White link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #eee; /* Lighter text color on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('background_image.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; /* White text color */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8A2BE2; /* Purple button background */
+  color: #fff; /* White button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #6A1AAE; /* Darker purple on hover */
+}
+
+/* Main Content Section Styles */
+.section {
+  padding: 80px 0;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section .content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Dark footer background */
+  color: #fff; /* White text color */
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #6A1AAE; /* Darker purple on hover */
+}
+
+.download-btn:nth-child(odd) {
+  background-color: #8A2BE2; /* Purple for Windows button */
+}
+
+.download-btn:nth-child(even) {
+  background-color: #4C70FF; /* Blue for macOS button */
+}
